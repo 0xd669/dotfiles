@@ -5,6 +5,7 @@ plugins=(
   fd
   fzf
   git
+  asdf
 )
 
 # Set brew path
@@ -41,9 +42,12 @@ FZF-EOF"
 fi
 
 # Aliases
-alias ls="exa"
-alias ll="exa -alh --git --color=automatic"
+alias ls="eza"
+alias ll="eza -alh --git --color=automatic"
 alias cat="bat"
+alias ps="procs"
+alias curl="curlie"
+alias http="curlie"
 alias python="python3"
 alias py="python"
 alias vim="nvim"
@@ -52,7 +56,4 @@ alias npm="pnpm"
 
 export EDITOR="nvim"
 
-export GOBIN=$HOME/go/bin
-export PATH=$PATH:/usr/local/go/bin:$(go env GOBIN)
-
-eval "$(direnv hook zsh)"
+eval "$(zoxide init zsh)"
