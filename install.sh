@@ -13,3 +13,4 @@ source git.sh
 source gpg.sh
 source zsh.sh
 source asdf.sh
+brew cleanup
