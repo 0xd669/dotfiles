@@ -1,3 +1,7 @@
+#! /bin/bash
+
+echo "🧞 asdf"
+
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf list all nodejs
 read -p "🧞 Node.js version: " nodejsversion

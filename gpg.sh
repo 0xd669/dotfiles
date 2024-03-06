@@ -1,5 +1,7 @@
 #! /bin/bash
 
+echo "🧞 gpg"
+
 echo "Do you wish to generate a new GPG key?"
 select yn in "Yes" "No"; do
     case $yn in

@@ -1,5 +1,7 @@
 #! /bin/bash
 
+echo "🧞 git"
+
 read -p "Git Username: " username
 read -p "Git Email: " email
 

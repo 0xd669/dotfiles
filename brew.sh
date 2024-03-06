@@ -1,4 +1,7 @@
 #! /bin/bash
+
+echo "🧞 brew"
+
 brew update
 
 brew tap homebrew/services
