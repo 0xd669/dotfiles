@@ -2,6 +2,9 @@
 
 echo "🧞 git"
 
+brew install git-lfs
+git lfs install
+
 read -p "Git Username: " username
 read -p "Git Email: " email
 
@@ -41,6 +44,8 @@ cat <<EOF > ~/.gitconfig
     gpgsign = true
 [gpg]
     program = $(brew --prefix)/bin/gpg
+[init]
+    defaultBranch = main
 EOF
 
 # SSH Key

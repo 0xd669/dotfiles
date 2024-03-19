@@ -26,3 +26,9 @@ asdf list all python
 read -p "🧞 Python version: " pythonversion
 asdf install python $pythonversion
 asdf global python $pythonversion
+
+asdf plugin-add pre-commit
+asdf list all pre-commit
+read -p "🧞 pre-commit version: " precommitversion
+asdf install pre-commit $precommitversion
+asdf global pre-commit $precommitversion
