@@ -2,6 +2,9 @@
 
 echo "🧞 git"
 
+brew install git-lfs
+git lfs install
+
 read -p "Git Username: " username
 read -p "Git Email: " email
 
