@@ -44,6 +44,8 @@ cat <<EOF > ~/.gitconfig
     gpgsign = true
 [gpg]
     program = $(brew --prefix)/bin/gpg
+[init]
+    defaultBranch = main
 EOF
 
 # SSH Key
