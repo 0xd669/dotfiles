@@ -15,6 +15,6 @@ fi
 cp .zshrc ~
 
 # Activate fzf
-source /usr/local/opt/fzf/install
+source <(fzf --zsh)
 
 source ~/.zshrc

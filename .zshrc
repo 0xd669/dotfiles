@@ -2,7 +2,6 @@
 ZSH_THEME="robbyrussell"
 
 plugins=(
-  fd
   fzf
   git
   asdf
